@@ -7,5 +7,5 @@ services:
       context: .
       dockerfile: Dockerfile
     # Uncomment below to use byparr outside of internal network
-    # ports:
-    #   - "8191:8191"
+    ports:
+      - "8191:8191"
